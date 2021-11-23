@@ -1,7 +1,10 @@
 This is a simple Twilio Serverless created for demo purposes
 It serves as a way for Salesforce to call a Twilio Studio Flow then update a Salesforce custom object based on responses from a users sms response.
+It also relies on nforce an open source project https://github.com/kevinohara80/nforce
 
-In order for this to work a Salesforce Connected App must be created:
+More detailed notes can be found here: https://docs.google.com/document/d/1kY-sJbCE63AIV7ZyEB1zvJLiYV445QYhMOaF7vSGHBs/edit?usp=sharing please request access should you like to learn more
+
+In order for this to work a Salesforce Connected App must be created: https://help.salesforce.com/s/articleView?language=en_US&type=5&id=sf.connected_app_create.htm
 Use Salesforce to create a new Connected App.
 In Lightning Experience, you use the App Manager to create Connected Apps: From Setup, enter App in the search box, then select App Manager. Click New Connected App.
 In Salesforce Classic, from Setup, enter Apps in the search box, then select Apps (under Build | Create). Under Connected Apps, click New.
