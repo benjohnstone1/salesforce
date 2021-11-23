@@ -12,7 +12,7 @@ Enter https://www.twilio.com as the Callback URL.
 Find Access and manage your data (API) under Available OAuth Scopes and add it to Selected OAuth Scopes: 'Access and manage your data (api)'
 Click Save. You will see an alert that the connected app could take 2–10 minutes for the changes to take effect. Click continue.
 
-Make sure to update the environment variables
+Make sure to update the environment variables https://www.twilio.com/console/functions
 SF_IS_SANDBOX
 Set to true if you’re testing in a sandbox organization (your organization’s URL starts with test.salesforce.com). Otherwise set to false.
 SF_CONSUMER_KEY
@@ -29,6 +29,6 @@ SF_TOKEN
 A Salesforce Security Token. This can be a personal token, but we recommend using a system user’s token.
 If you have forgotten the token, you will need to reset it. Visit the salesforce instructions for details.
 
-Also make sure to include nforce as a dependency in your Twilio Function
+Also make sure to include nforce as a dependency in your Twilio Function https://www.twilio.com/console/functions
 
 
